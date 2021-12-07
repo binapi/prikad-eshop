@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.app_set_menu{
+    width: 100vw;
+    position: relative;
+}
+
+.app_set_menu_box{
+    width: 97%;
+    margin-left: 1%;
+}
+
+.app_nav_bar_set ul{
+    width: 100%;
+    display: flex;
+    margin-top: 1%;
+}
+
+.app_nav_bar_set ul li{
+    width: 100%;
+    height: 50px;
+    border-right: 1px solid #fff;
+    background-color: #e21b52;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.it:hover > app_click_me_it{
+    display: block;
+}
+
+.app_nav_bar_set ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.click_me_it,
+.click_me_electronic,
+.click_me_small,
+.click_me_big,
+.click_me_sport,
+.click_me_hobby,
+.click_me_care{
+    display: none;
+    width: 96vw;
+    margin: 0 auto;
+    border: 0.5px solid #e21b52;
+}
+
+.app_nav_menu_set_it,
+.app_nav_menu_set_electronic,
+.app_nav_menu_set_small,
+.app_nav_menu_set_big,
+.app_nav_menu_set_sport,
+.app_nav_menu_set_hobby,
+.app_nav_menu_set_care{
+    display: flex;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+
+.app_nav_menu_set_it_item,
+.app_nav_menu_set_electronic_item,
+.app_nav_menu_set_small_item,
+.app_nav_menu_set_big_item,
+.app_nav_menu_set_sport_item,
+.app_nav_menu_set_hobby_item,
+.app_nav_menu_set_care_item{
+    display: flex;
+    width: 25%;
+}
+
+.app_nav_menu_set_it_item ul li,
+.app_nav_menu_set_electronic_item ul li,
+.app_nav_menu_set_small_item ul li,
+.app_nav_menu_set_big_item ul li,
+.app_nav_menu_set_sport_item ul li,
+.app_nav_menu_set_hobby_item ul li,
+.app_nav_menu_set_care_item ul li{
+    cursor: pointer;
+}
+
+.app_nav_menu_set_it_item ul li a,
+.app_nav_menu_set_electronic_item ul li a,
+.app_nav_menu_set_small_item ul li a,
+.app_nav_menu_set_big_item ul li a,
+.app_nav_menu_set_sport_item ul li a,
+.app_nav_menu_set_hobby_item ul li a,
+.app_nav_menu_set_care_item ul li a{
+    text-decoration: none;
+    color: #000;
+}
